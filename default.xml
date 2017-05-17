@@ -20,7 +20,7 @@
 
   <!-- AOSP Projects -->
 
-  <project path="build" name="Matssa56/android_build" groups="pdk" revision="cm-14.1-OMSrootless2">
+  <project path="build" name="LineageOS/android_build" groups="pdk" revision="cm-14.1-OMSrootless2">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
